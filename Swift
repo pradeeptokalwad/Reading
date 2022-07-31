@@ -1,1 +1,9 @@
 
+ABI Stability:-  [ Abstract Binary Interface ]
+  - After Swift 5 version swift becomes ABI stable.
+  - Before ABI stability after every swift version we needed to recompile the binaries in that version and use it again.
+  - Means Current application binaries interact with already compiled binaries(frameworks/libs) with the help of ABI
+  - ABI Stores all information about compiled binaries like metadata, function definiation and and how to call it etc.
+  - ABI provides binary compatibility for apps: a guarantee that going forward, an app built with one version 
+    of the Swift compiler will be able to talk to a library built with another version.
+  
